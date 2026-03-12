@@ -1,12 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Site</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Electrical Maintenance Services</title>
+<link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <h1>Welcome to My Site</h1>
-    <p>This is a basic HTML file.</p>
+
+<header>
+<h1>Mike Electrical Maintenance</h1>
+<nav>
+<a href="#home">Home</a>
+<a href="#about">About</a>
+<a href="#services">Services</a>
+<a href="#contact">Contact</a>
+</nav>
+</header>
+
+<section id="home">
+<h2>Welcome</h2>
+<p>Professional electrical installation and maintenance services.</p>
+<button onclick="welcome()">Book Service</button>
+</section>
+
+<section id="about">
+<h2>About Us</h2>
+<p>We provide quality electrical maintenance, wiring, and repair services for homes and businesses.</p>
+</section>
+
+<section id="services">
+<h2>Our Services</h2>
+<ul>
+<li>Electrical Installation</li>
+<li>Electrical Maintenance</li>
+<li>Fault Repairs</li>
+<li>Lighting Installation</li>
+<li>Generator Connection</li>
+</ul>
+</section>
+
+<section id="contact">
+<h2>Contact Us</h2>
+<form>
+<input type="text" placeholder="Your Name" required>
+<input type="email" placeholder="Your Email" required>
+<textarea placeholder="Your Message"></textarea>
+<button type="submit">Send Message</button>
+</form>
+</section>
+
+<footer>
+<p>© 2026 Mike Electrical Maintenance</p>
+</footer>
+
+<script src="script.js"></script>
+
 </body>
 </html>
